@@ -1,0 +1,111 @@
+html, body
+{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+#control
+{
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#playground
+{
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	height: 500px;
+	background-color: lightgrey;
+}
+
+.col
+{
+	display: inline-block;
+	width: 49.6%;
+	height: 90%;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	vertical-align: top;
+}
+
+#header
+{
+	width: 100%;
+	/*border: 1px solid blue;*/
+	height: 5%;
+	text-align: center;
+}
+
+#playfield
+{
+	width: 100%;
+	height: 100%;
+	/*border: 1px solid black;*/
+	padding: 0;
+	background-color: white;
+}
+
+#nextblock
+{
+	width: 100%;
+	height: 50%;
+	/*border: 1px solid red;*/
+}
+
+#nextblock table
+{
+	width: 50%;
+	height: 30%;
+}
+
+#settings
+{
+	width: 100%;
+	height: 50%;
+	/*border: 1px solid green;*/
+}
+
+#footer
+{
+	width: 100%;
+	height: 5%;
+	/*border: 1px solid blue;*/
+}
+
+table
+{
+	/*border: 1px solid black;*/
+	width: 100%;
+	height: 99%;
+	/*border-collapse: collapse;*/
+}
+
+/*
+thead
+{
+	height: 5%;
+}
+*/
+
+tbody
+{
+	height: 100%;
+}
+
+/*
+tfooter
+{
+	height: 5%;
+}
+*/
+
+td
+{
+	border: 1px solid lightgrey;
+}
